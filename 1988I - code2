@@ -145,7 +145,7 @@ cyoAdventure = function(a) {
           "likelihood": 1
         }
       }
-    } if (CRAZY >=5 && FASC >=1) {
+    } if (CRAZY >=4 && FASC >=1) {
       // HEAL HAPPENS
       campaignTrail_temp.questions_json[7] = {
         "model": "campaign_trail.question",
@@ -156,7 +156,7 @@ cyoAdventure = function(a) {
           "likelihood": 1
         }
       }
-    } if (CRAZY >=2 && FASC >=5) {
+    } if (CRAZY >=3 && FASC >=6) {
       // HEAL HAPPENS
       campaignTrail_temp.questions_json[7] = {
         "model": "campaign_trail.question",
